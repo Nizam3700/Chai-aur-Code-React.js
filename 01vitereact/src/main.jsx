@@ -11,11 +11,13 @@ function MyApp(){
   )
 }
 
+const anotherUser = "chai aur react by Hitesh"
 // eslint-disable-next-line no-unused-vars
 function AnotherElement() {
   return (
-  <a href="https://www.linkedin.com/in/shaik-nizamuddin-backend/"> Visit My Profile</a>
+  <a href="https://www.linkedin.com/in/shaik-nizamuddin-backend/" target='_blank'> Visit My Profile</a>
   )
+  anotherUser
 }
 
 
