@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import App from './App.jsx'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Layout from './layout.jsx'
@@ -9,6 +9,7 @@ import About from './About/About.jsx'
 import Contact from './Contact/Contact.jsx'
 import User from './User/User.jsx'
 import Github from './Github/Github.jsx'
+import Services from './Services/Services.jsx'
 
 
 // method 1 
@@ -41,6 +42,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About/>} />
       <Route path='contact' element={<Contact/>} />
       <Route path='user/:userid' element={<User/>} />
+      <Route path='Services' element={<Services/>} />
       <Route path='github' element={<Github/>} />
     </Route>
 
